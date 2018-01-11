@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c95e4085f93153d45881d1fcb4730468
-timeCreated: 1515688554
+timeCreated: 1515701072
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -66,6 +66,7 @@ TextureImporter:
     21300118: environment-tiles_59
     21300120: environment-tiles_60
     21300122: environment-tiles_61
+    21300124: environment-tiles_62
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -990,7 +991,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1003,6 +1004,20 @@ TextureImporter:
         y: 176
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: environment-tiles_62
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
