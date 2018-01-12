@@ -13,18 +13,20 @@ public class PlayerController : MonoBehaviour {
 
     public bool lookingRight = true;
     public bool jump = false;
+    public bool isGrounded;
 
 	// Use this for initialization
 	void Start () {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        anim.SetBool("isGrounded", true);
+        anim.SetBool("Grounded", true);
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButtonDown("Jump"))
+        anim.SetBool("Grounded", isGrounded);
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             jump = true;
         }
@@ -46,6 +48,7 @@ public class PlayerController : MonoBehaviour {
         {
             rb2d.AddForce(new Vector2(0, jumpForce));
             jump = false;
+            anim.SetBool("Grounded", false);
         }
 
 
