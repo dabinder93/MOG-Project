@@ -5,14 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 
-    public float maxSpeed = 4;
-    public float jumpForce = 550;
+    public float maxSpeed = 3;
+    public float jumpForce = 500;
 
     private Rigidbody2D rb2d;
     private Animator anim;
 
     public bool lookingRight = true;
     public bool jump = false;
+    public int groundCollisionCount = 0;
     public bool isGrounded;
 
 	// Use this for initialization
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        anim.SetInteger("CollisionCount", groundCollisionCount);
         anim.SetBool("Grounded", isGrounded);
         if (Input.GetButtonDown("Jump") && isGrounded)
         {

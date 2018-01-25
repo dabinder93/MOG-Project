@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212850287632798608}
   - component: {fileID: 95986565431945696}
   - component: {fileID: 114150606459948578}
-  - component: {fileID: 70563740421038886}
+  - component: {fileID: 70284330206422676}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
@@ -37,13 +37,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1188667873174058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.291635, y: -0.65696335, z: -0.30273438}
+  m_LocalPosition: {x: 15.117, y: -1.677, z: -0.60546875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &70563740421038886
+--- !u!70 &70284330206422676
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -55,8 +55,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.026896834, y: 0.1075871}
-  m_Size: {x: 1.0599501, y: 2.3012424}
+  m_Offset: {x: 0.0035128593, y: 1.1229527}
+  m_Size: {x: 1.058404, y: 2.2599568}
   m_Direction: 0
 --- !u!95 &95986565431945696
 Animator:

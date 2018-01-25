@@ -19,7 +19,8 @@ public class LevelManager : MonoBehaviour {
     public void RespawnPlayer()
     {
         Debug.Log("Player respawned");
-        player.transform.position = currentCheckpoint.transform.position;
+        //player.transform.position = currentCheckpoint.transform.position;
+        player.transform.position = new Vector2(currentCheckpoint.transform.position.x, currentCheckpoint.transform.position.y + 0.6f);
 
     }
 }
