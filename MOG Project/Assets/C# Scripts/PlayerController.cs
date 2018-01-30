@@ -57,7 +57,6 @@ public class PlayerController : MonoBehaviour {
         
     }
 
-
     public void Flip()
     {
         lookingRight = !lookingRight;
