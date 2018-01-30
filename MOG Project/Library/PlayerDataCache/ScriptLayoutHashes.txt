@@ -112,6 +112,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchControls
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -146,3 +147,4 @@ afbe6989f5be1a528e7c45cb3a5f22a3 Assembly-CSharp.dll:.LevelManager
 f650db86c92fe9da1b129fc77782b54b Assembly-CSharp.dll:.CheckpointManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Run
 f650db86c92fe9da1b129fc77782b54b Assembly-CSharp.dll:.KillPlayer
+91d99c037afb2fb8627826d0776940a0 Assembly-CSharp.dll:CustomCamera.FollowCamera2D

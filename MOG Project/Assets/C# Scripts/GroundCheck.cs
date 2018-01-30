@@ -6,7 +6,6 @@ public class GroundCheck : MonoBehaviour {
 
     private PlayerController player;
     private Animator anim;
-    private int collisionCount = 0;
     // Use this for initialization
     void Start () {
         player = gameObject.GetComponentInParent<PlayerController>();
