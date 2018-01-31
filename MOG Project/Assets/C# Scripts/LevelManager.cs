@@ -27,6 +27,6 @@ public class LevelManager : MonoBehaviour {
 
     public void FinishedGame()
     {
-        Application.LoadLevel("Level/StartMenu");
+        Application.LoadLevel("Level/EndScene");
     }
 }
