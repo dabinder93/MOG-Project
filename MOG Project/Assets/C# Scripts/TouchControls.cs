@@ -10,16 +10,15 @@ public class TouchControls : MonoBehaviour {
     // Use this for initialization
     void Start() {
         player = FindObjectOfType<PlayerController>();
-
     }
 
     public void LeftArrow(){
-        player.Move(-1);
+        player.setHorizontalAxisValue(-1);
         
     }
 
     public void RightArrow(){
-        player.Move(1);
+        player.setHorizontalAxisValue(1);
     }
 
     public void Jump(){
@@ -27,7 +26,7 @@ public class TouchControls : MonoBehaviour {
     }
 
     public void UnpressedArrow() {
-        player.Move(0);
+        player.setHorizontalAxisValue(0);
     }
 
 }

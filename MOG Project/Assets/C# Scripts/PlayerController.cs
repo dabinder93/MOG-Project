@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour {
     public bool jump = false;
     public int groundCollisionCount = 0;
     public bool isGrounded;
+    private float horizontalAxisValue = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -42,8 +43,18 @@ public class PlayerController : MonoBehaviour {
             Jump();
         }*/
 #endif
+
+#if UNITY_ANDROID
+        Move(horizontalAxisValue);
+
+#endif
+    }
+    public void setHorizontalAxisValue(float value)
+    {
+        horizontalAxisValue = value;
     }
 
+    
     public void Move(float moveInput) {
         Debug.Log(moveInput);
         float hor = moveInput;
